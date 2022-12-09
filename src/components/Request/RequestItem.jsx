@@ -29,7 +29,7 @@ export function RequestItem({ request, isEven = false }) {
 			className={`flex items-center space-x-5 p-2 py-4 w-full ${bgColor}`}
 		>
 			<td className={colClasses}>
-				<Link className="text-indigo-600 cursor-pointer hover:underline">
+				<Link className="text-indigo-600 cursor-pointer hover:underline" to = "/client/requests/service">
 					{formattedServiceNumber}
 				</Link>
 			</td>
